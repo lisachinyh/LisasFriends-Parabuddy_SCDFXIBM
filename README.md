@@ -14,7 +14,7 @@ deploy them for operation in times where SCDF may be
 short-handed during times like in the pandemic.
 
 Pitch video: 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Dz43S7uF3YA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=Dz43S7uF3YA
 
 Detailed solution: 
 Parabuddy acts as a buddy of an on-ground paramedic, and it 
@@ -40,7 +40,7 @@ aims to calmly bring the paramedic through critical procedures
 to save lives independently, with the help of a smart assistant.
 
 Live demo: 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FT3SI7qHv4qBPZEOXXjB37t%2Fmyresponder-2.0%3Fnode-id%3D3%253A9%26frame-preset-name%3DiPhone%252011%2520Pro%2520Max%26scaling%3Dscale-down%26page-id%3D0%253A1" allowfullscreen></iframe>
+https://www.figma.com/proto/T3SI7qHv4qBPZEOXXjB37t/myresponder-2.0?node-id=3%3A9&frame-preset-name=iPhone%2011%20Pro%20Max&scaling=scale-down&page-id=0%3A1
 
 IBM Cloud used: 
 Speech to text 
