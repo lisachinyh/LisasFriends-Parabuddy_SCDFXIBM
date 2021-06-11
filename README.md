@@ -3,6 +3,7 @@ Team name: Lisa's Friends
 Team members: Lisa Chin Yuen Han, Charmaine Koh, Ong Kok Chung, Jeremiah Benjamin Yong, Jacky Mualim 
 
 Solution name: Parabuddy 
+
 Short description: 
 Parabuddy aims to guide operational paramedics calmly through 
 time-critical procedures step-by-step to ensure that entire 
