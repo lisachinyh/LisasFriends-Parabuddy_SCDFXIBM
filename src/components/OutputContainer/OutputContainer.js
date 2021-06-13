@@ -56,11 +56,13 @@ export const OutputContainer = ({
         if (words.indexOf('temperatures') !== words.length) {
           temperature = words[words.indexOf('temperatures') + 1];
         }
-      } else if (text.toLowerCase().includes('blood pressure')) {
+      }
+      if (text.toLowerCase().includes('blood pressure')) {
         if (words.indexOf('pressure') !== words.length) {
           bloodPressure = words[words.indexOf('pressure') + 1];
         }
-      } else if (
+      } 
+      if (
         text.toLowerCase().includes('pulse') ||
         text.toLowerCase().includes('also')
       ) {
@@ -70,7 +72,8 @@ export const OutputContainer = ({
         if (words.indexOf('also') !== words.length) {
           pulse = words[words.indexOf('also') + 1];
         }
-      } else if (text.toLowerCase().includes('oxygen')) {
+      }
+      if (text.toLowerCase().includes('oxygen')) {
         if (words.indexOf('oxygen') !== words.length) {
           oxygen = words[words.indexOf('oxygen') + 1];
         }
@@ -140,12 +143,6 @@ export const OutputContainer = ({
               {...radioProps}
             />
           </RadioButtonGroup>
-        </FormGroup>
-        <FormGroup legendText="Transcript">
-          <TranscriptBox
-            keywordInfo={keywordInfo}
-            transcriptArray={transcriptArray}
-          />
         </FormGroup>
         <Button type="submit" className="submit">
           SUBMIT

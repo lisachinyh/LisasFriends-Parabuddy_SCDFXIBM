@@ -41,8 +41,11 @@ All in all, when facing a risky emergency on ground, Parabuddy
 aims to calmly bring the paramedic through critical procedures 
 to save lives independently, with the help of a smart assistant.
 
-Live demo: 
+Mockup: 
 https://www.figma.com/proto/T3SI7qHv4qBPZEOXXjB37t/myresponder-2.0?node-id=3%3A9&frame-preset-name=iPhone%2011%20Pro%20Max&scaling=scale-down&page-id=0%3A1
+
+Demo of using speech to fill in form:
+![](Demo.mov)
 
 IBM Cloud used: 
 Speech to text 
