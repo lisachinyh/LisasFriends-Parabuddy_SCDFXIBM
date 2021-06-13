@@ -1,18 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-import { Button, FileUploaderButton } from 'carbon-components-react';
+import { Button } from 'carbon-components-react';
 import fetch from 'isomorphic-fetch';
 import models from '../../data/models.json';
 
 export const SubmitContainer = ({
   isRecording,
   isSamplePlaying,
-  isUploadPlaying,
   keywordText,
   modelName,
   onError,
-  onStartPlayingFileUpload,
-  onStopPlayingFileUpload,
   onStartPlayingSample,
   onStopPlayingSample,
   onStartRecording,
@@ -82,15 +79,6 @@ export const SubmitContainer = ({
     const baseConfig = await getBaseAudioConfig();
     return {
       ...baseConfig,
-      resultsBySpeaker: false,
-    };
-  };
-
-  const getUploadAudioConfig = async file => {
-    const baseConfig = await getBaseAudioConfig();
-    return {
-      ...baseConfig,
-      file,
       resultsBySpeaker: false,
     };
   };

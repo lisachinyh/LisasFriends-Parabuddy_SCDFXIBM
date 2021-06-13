@@ -5,7 +5,6 @@ import {
   FormGroup,
   TextArea,
   Tile,
-  ToggleSmall,
 } from 'carbon-components-react';
 import SubmitContainer from '../SubmitContainer';
 import models from '../../data/models.json';
