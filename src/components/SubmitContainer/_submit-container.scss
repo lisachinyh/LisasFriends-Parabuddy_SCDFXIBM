@@ -7,7 +7,19 @@
     max-height: $spacing-08 * 2;
   }
 
+  .bx--btn {
+    text-align: center;
+  }
+
+    .bx--btn--tertiary {
+    border-color: gray;
+  }
+
+
   .submit-button {
+    background-color: gray;
+    color: white;
+    border-radius: 15px;
     max-width: 100%;
     min-height: $spacing-09;
     width: 100%;

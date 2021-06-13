@@ -50,7 +50,7 @@ export const ControlContainer = ({
 
   return (
     <Tile className="control-container">
-      <h3 className="container-title">Input</h3>
+      <h3 className="container-title">Audio</h3>
       <FormGroup legendText="Language model">
         <Dropdown
           id="language-model-dropdown"
@@ -75,17 +75,6 @@ export const ControlContainer = ({
             setKeywordText(evt.target.value);
           }}
           light
-        />
-      </FormGroup>
-      <FormGroup legendText="Detect multiple speakers (only supported with sample audio)">
-        <ToggleSmall
-          id="speaker-label-toggle"
-          aria-label="Speaker label toggle"
-          disabled={!model || !model.supportsSpeakerLabels}
-          toggled={useSpeakerLabels}
-          onToggle={() => {
-            setUseSpeakerLabels(!useSpeakerLabels);
-          }}
         />
       </FormGroup>
       <SubmitContainer

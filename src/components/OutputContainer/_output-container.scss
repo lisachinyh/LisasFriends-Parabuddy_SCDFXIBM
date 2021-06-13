@@ -12,6 +12,30 @@
   }
 
   .container-title {
-    padding-bottom: $spacing-09;
+    padding-bottom: $spacing-03;
+  }
+
+  .bx--label {
+    font-size: 15px;
+    padding: $spacing-03;
+  }
+
+  .input {
+    background-color: $ui-02;
+    padding: $spacing-05;
+    border-radius: 15px;
+    padding: $spacing-03;
+  }
+
+  .bx--btn {
+    text-align: center;
+    max-width: none;
+  }
+
+  .submit {
+    background-color: gray;
+    border-radius: 15px;
+    display: block;
+    width: 100%;
   }
 }

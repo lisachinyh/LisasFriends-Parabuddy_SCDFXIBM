@@ -143,31 +143,6 @@ export const SubmitContainer = ({
           Record your own
         </Button>
       )}
-      {isUploadPlaying ? (
-        <Button
-          className="submit-button"
-          kind="tertiary"
-          onClick={onStopPlayingFileUpload}
-        >
-          Stop playing
-        </Button>
-      ) : (
-        <FileUploaderButton
-          accept={['audio/wav', 'audio/mpeg', 'audio/flac', 'audio/opus']}
-          buttonKind="tertiary"
-          className="submit-button"
-          disabled={!modelName}
-          disableLabelChanges
-          labelText="Upload file"
-          onChange={async evt => {
-            const uploadedFile = evt.currentTarget.files[0];
-            const config = await getUploadAudioConfig(uploadedFile);
-            if (!config.error) {
-              onStartPlayingFileUpload(config);
-            }
-          }}
-        />
-      )}
     </div>
   );
 };
