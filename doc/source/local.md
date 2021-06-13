@@ -1,6 +1,6 @@
 # Run locally
 
-This document shows how to run the `speech-to-text-code-pattern` application on your local machine.
+This document shows how to run the `Parabuddy` application on your local machine.
 
 ## Steps
 
@@ -10,11 +10,11 @@ This document shows how to run the `speech-to-text-code-pattern` application on 
 
 ### Clone the repo
 
-Clone `speech-to-text-code-pattern` repo locally. In a terminal, run:
+Clone `Parabuddy` repo locally. In a terminal, run:
 
 ```bash
-git clone https://github.com/IBM/speech-to-text-code-pattern
-cd speech-to-text-code-pattern
+git clone https://github.com/lisachinyh/LisasFriends-Parabuddy_SCDFXIBM.git
+cd LisasFriends-Parabuddy_SCDFXIBM
 ```
 
 ### Configure credentials
